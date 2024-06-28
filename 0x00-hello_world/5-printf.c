@@ -4,7 +4,7 @@
  *
  * Description: Prints a message to standard output with a trailing line.
  * It uses printf function
- * Return: Always o (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
