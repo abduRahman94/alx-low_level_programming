@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * puts - Prints argument to standard output adding a trailing new line
+ * Description: Prints argument to standard output adding a trailing new line.
+ * It uses the put function
  *
- * return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
