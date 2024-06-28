@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point
  *
  * Description: Prints a message to standard output with a trailing line.
