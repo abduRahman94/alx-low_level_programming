@@ -3,7 +3,7 @@
  * main - Entry point
  * puts - Prints argument to standard output adding a trailing new line
  *
- * Return : Always 0 (Success)
+ * return - Always 0 (Success)
  */
 int main(void)
 {
