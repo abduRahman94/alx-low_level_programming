@@ -9,12 +9,13 @@ int main(void)
 	char min;
 	char maj;
 
+	for (min = 'a'; min <= 'z'; min++)
+	{
+		putchar(min);
+	}
+	
 	for (maj = 'A'; maj <= 'Z'; maj++)
 	{
-		for (min = 'a'; min <= 'z'; min++)
-		{
-			putchar(min);
-		}
 		putchar(maj);
 	}
 	putchar('\n');
