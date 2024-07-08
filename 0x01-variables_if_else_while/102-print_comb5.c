@@ -20,8 +20,8 @@ int main(void)
 			putchar((second_iter % 10) + '0');
 			if (first_iter != 98 || second_iter != 99)
 			{
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
