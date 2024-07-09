@@ -10,16 +10,16 @@ int print_sign(int c)
 {
 	if (c > 0)
 	{
-		printf('+');
+		printf("+");
 		return (1);
 	}
 	else if (c < 0)
 	{
-		printf('-');
+		printf("-");
 		return (-1);
 	else
 	{
-		printf('0');
+		printf("0");
 		return (0);
 	}
 }
