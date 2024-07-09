@@ -10,7 +10,7 @@ int main(void)
 	long int a = 1, b = 2, next;
 	long counter = 0;
 
-	while (counter < 98)
+	while (counter <= 98)
 	{
 		next = a + b;
 
