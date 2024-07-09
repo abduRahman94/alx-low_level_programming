@@ -14,10 +14,11 @@ int main(void)
 	{
 		next = a + b;
 
-		a = b;
-		b = next;
 		if (counter != 98)
 			printf("%ld, ", a);
+
+		a = b;
+		b = next;
 		counter++;
 	}
 
