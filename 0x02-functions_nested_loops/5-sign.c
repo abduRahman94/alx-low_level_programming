@@ -17,6 +17,7 @@ int print_sign(int c)
 	{
 		printf("-");
 		return (-1);
+	}
 	else
 	{
 		printf("0");
