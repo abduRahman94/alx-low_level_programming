@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check code
+ * main - Entry point
  *
- * print_alphabet: Prints the alphabet letters to stdout
+ * print_alphabet - Prints the alphabet letters to stdout
  * followed by empty line
  * Return: Always 0.
  */
