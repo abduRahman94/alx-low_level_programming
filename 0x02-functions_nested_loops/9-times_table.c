@@ -4,29 +4,37 @@
 /**
  * times_table - displays time table
  *
- * Return: Always 0.
+ * Return: void.
  */
+
 void times_table(void)
 {
-	int i, j, result;
-	for (i = 0; i <= 9; i++)
-	{
-		for (j = 0; j <= 9; j++)
-		{
-			result = i * j;
+    int i, j, product;
 
-			_putchar(' ');
-			
-			if (result <= 9)
-				_putchar(' ');
-			else
-				_putchar((result / 10) + '0');
-			
-			_putchar((result % 10) + '0');
-			
-			if (j < 9)
-				_putchar(',');
-		}
-		_putchar('\n');
-	}
+    for (i = 0; i <= 9; i++)
+    {
+        for (j = 0; j <= 9; j++)
+        {
+            product = i * j;
+
+            if (j != 0)
+            {
+                _putchar(',');
+                _putchar(' ');
+            }
+
+            if (product < 10 && j != 0)
+            {
+                _putchar(' ');
+            }
+
+            if (product >= 10)
+            {
+                _putchar((product / 10) + '0');
+            }
+
+            _putchar((product % 10) + '0');
+        }
+        _putchar('\n');
+    }
 }
