@@ -8,9 +8,9 @@
 void print_alphabet_x10(void)
 {
 	char letter;
-	int tours;
+	int tour;
 	
-	for (tours = 0; tours <= 9; tours++)
+	for (tour = 0; tour <= 9; tour++)
 	{
 		for (letter = 'a'; letter <= 'z'; letter++)
 		{
