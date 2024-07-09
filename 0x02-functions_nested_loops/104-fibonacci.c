@@ -10,17 +10,16 @@ int main(void)
 	long int a = 1, b = 2, next;
 	long counter = 0;
 
-	while (1)
+	while (counter < 98)
 	{
 		next = a + b;
-		if (counter >= 98)
-			break;
 
 		a = b;
 		b = next;
+		if (counter != 98)
+			printf("%ld, ", a);
 		counter++;
 	}
 
-	printf("%ld\n", a);
 	return (0);
 }
