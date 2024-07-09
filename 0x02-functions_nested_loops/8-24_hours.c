@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_last_digit - Returns last digit of given number
- * @c: the char to check
+ * jack_bauer - displays time
+ * 
  * Return: Always 0.
  */
 void jack_bauer(void)
@@ -23,4 +23,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
+	return (0);
 }
