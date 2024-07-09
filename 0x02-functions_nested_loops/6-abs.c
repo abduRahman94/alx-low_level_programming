@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * abs - Returns absolute value of given argument
+ * _abs - Returns absolute value of given argument
  * @c: the char to check
  * Return: Always 0.
  */
