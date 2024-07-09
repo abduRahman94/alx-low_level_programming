@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,17 +9,17 @@ int print_sign(int c)
 {
 	if (c > 0)
 	{
-		printf("+");
+		_putchar("+");
 		return (1);
 	}
 	else if (c < 0)
 	{
-		printf("-");
+		_putchar("-");
 		return (-1);
 	}
 	else
 	{
-		printf("0");
+		_putchar("0");
 		return (0);
 	}
 }
