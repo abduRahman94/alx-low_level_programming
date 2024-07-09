@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
  * print_alphabet - Prints the alphabet letters to stdout
  * followed by empty line
  * Return: Always 0.
