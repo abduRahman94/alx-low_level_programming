@@ -3,7 +3,7 @@
 /**
  * main - check code
  *
- * print_alphabet - Prints the alphabet letters to stdout
+ * print_alphabet: Prints the alphabet letters to stdout
  * followed by empty line
  * Return: Always 0.
  */
