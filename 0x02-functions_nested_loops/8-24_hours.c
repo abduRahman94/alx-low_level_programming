@@ -3,7 +3,7 @@
 
 /**
  * jack_bauer - displays time
- * 
+ *
  * Return: Always 0.
  */
 void jack_bauer(void)
